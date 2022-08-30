@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		EE2C2DC428BDCF8E00AB8313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DC328BDCF8E00AB8313 /* AppDelegate.swift */; };
 		EE2C2DC628BDCF8E00AB8313 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DC528BDCF8E00AB8313 /* SceneDelegate.swift */; };
-		EE2C2DC828BDCF8E00AB8313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DC728BDCF8E00AB8313 /* ViewController.swift */; };
 		EE2C2DCB28BDCF8E00AB8313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DC928BDCF8E00AB8313 /* Main.storyboard */; };
 		EE2C2DCD28BDCF9000AB8313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DCC28BDCF9000AB8313 /* Assets.xcassets */; };
 		EE2C2DD028BDCF9000AB8313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DCE28BDCF9000AB8313 /* LaunchScreen.storyboard */; };
 		EE2C2DDB28BDCF9000AB8313 /* TODOLISTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DDA28BDCF9000AB8313 /* TODOLISTTests.swift */; };
 		EE2C2DE528BDCF9000AB8313 /* TODOLISTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DE428BDCF9000AB8313 /* TODOLISTUITests.swift */; };
 		EE2C2DE728BDCF9000AB8313 /* TODOLISTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DE628BDCF9000AB8313 /* TODOLISTUITestsLaunchTests.swift */; };
+		EE2C2DF428BDDB1100AB8313 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DF328BDDB1100AB8313 /* TableViewController.swift */; };
+		EE2C2DF628BDDB3E00AB8313 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DF528BDDB3E00AB8313 /* AddViewController.swift */; };
+		EE2C2DF828BDDB5600AB8313 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C2DF728BDDB5600AB8313 /* DetailViewController.swift */; };
+		EE2C2DFC28BDDF5C00AB8313 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DF928BDDF5C00AB8313 /* pencil.png */; };
+		EE2C2DFD28BDDF5C00AB8313 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DFA28BDDF5C00AB8313 /* cart.png */; };
+		EE2C2DFE28BDDF5C00AB8313 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C2DFB28BDDF5C00AB8313 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		EE2C2DC028BDCF8E00AB8313 /* TODOLIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODOLIST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2C2DC328BDCF8E00AB8313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE2C2DC528BDCF8E00AB8313 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE2C2DC728BDCF8E00AB8313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE2C2DCA28BDCF8E00AB8313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE2C2DCC28BDCF9000AB8313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2C2DCF28BDCF9000AB8313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		EE2C2DE028BDCF9000AB8313 /* TODOLISTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOLISTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2C2DE428BDCF9000AB8313 /* TODOLISTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOLISTUITests.swift; sourceTree = "<group>"; };
 		EE2C2DE628BDCF9000AB8313 /* TODOLISTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOLISTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE2C2DF328BDDB1100AB8313 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EE2C2DF528BDDB3E00AB8313 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		EE2C2DF728BDDB5600AB8313 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EE2C2DF928BDDF5C00AB8313 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		EE2C2DFA28BDDF5C00AB8313 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		EE2C2DFB28BDDF5C00AB8313 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		EE2C2DC228BDCF8E00AB8313 /* TODOLIST */ = {
 			isa = PBXGroup;
 			children = (
+				EE2C2DFA28BDDF5C00AB8313 /* cart.png */,
+				EE2C2DFB28BDDF5C00AB8313 /* clock.png */,
+				EE2C2DF928BDDF5C00AB8313 /* pencil.png */,
 				EE2C2DC328BDCF8E00AB8313 /* AppDelegate.swift */,
+				EE2C2DF728BDDB5600AB8313 /* DetailViewController.swift */,
+				EE2C2DF528BDDB3E00AB8313 /* AddViewController.swift */,
+				EE2C2DF328BDDB1100AB8313 /* TableViewController.swift */,
 				EE2C2DC528BDCF8E00AB8313 /* SceneDelegate.swift */,
-				EE2C2DC728BDCF8E00AB8313 /* ViewController.swift */,
 				EE2C2DC928BDCF8E00AB8313 /* Main.storyboard */,
 				EE2C2DCC28BDCF9000AB8313 /* Assets.xcassets */,
 				EE2C2DCE28BDCF9000AB8313 /* LaunchScreen.storyboard */,
@@ -231,6 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2C2DFE28BDDF5C00AB8313 /* clock.png in Resources */,
+				EE2C2DFC28BDDF5C00AB8313 /* pencil.png in Resources */,
+				EE2C2DFD28BDDF5C00AB8313 /* cart.png in Resources */,
 				EE2C2DD028BDCF9000AB8313 /* LaunchScreen.storyboard in Resources */,
 				EE2C2DCD28BDCF9000AB8313 /* Assets.xcassets in Resources */,
 				EE2C2DCB28BDCF8E00AB8313 /* Main.storyboard in Resources */,
@@ -258,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2C2DC828BDCF8E00AB8313 /* ViewController.swift in Sources */,
 				EE2C2DC428BDCF8E00AB8313 /* AppDelegate.swift in Sources */,
+				EE2C2DF428BDDB1100AB8313 /* TableViewController.swift in Sources */,
+				EE2C2DF828BDDB5600AB8313 /* DetailViewController.swift in Sources */,
+				EE2C2DF628BDDB3E00AB8313 /* AddViewController.swift in Sources */,
 				EE2C2DC628BDCF8E00AB8313 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
